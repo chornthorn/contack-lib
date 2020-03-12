@@ -1,0 +1,19 @@
+{
+    "name": "thorn/contact",
+    "description": "this email will send to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chornthorn",
+            "email": "chornthorn2017@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Thorn\\Contact\\": "src/"
+        }
+    }
+}
