@@ -15,5 +15,12 @@
         "psr-4": {
             "Thorn\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thorn\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
